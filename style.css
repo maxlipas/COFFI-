@@ -1,0 +1,493 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@font-face{
+    font-family:"Clicker Script";
+    src:url(font/Clicker_Script/ClickerScript-Regular.ttf);
+}
+@font-face{
+    font-family:"Playfair Display";
+    src:url(font/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+a{
+    text-decoration:none;
+    color:white;
+    font-size:1.3em;
+}
+p{
+    font-size:1.8em;
+    color:#707070;
+}
+h3{
+    color:#603809;
+    font-size:5em;
+}
+.stt1,.stt2{
+    border-radius:50em;
+    background-color:#F9C06A;
+    border:0;
+    font-size:1.3em;
+    box-shadow:0 0 15px #F9C06A;
+    font-family:"Playfair Display";
+}
+.stt1{
+    width:60%;
+    height:3em;
+}
+.stt2{
+    width:8em;
+    height:3em;
+}
+.Coff{
+    background-image:url(Asse/coffee_image.png);
+    width:99vw;
+    height:100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    box-shadow:inset 0 0 5em 1em #000;
+}
+header{
+    width:90vw;
+    height:11vh;
+    margin:0 auto;
+    align-items:center;
+}
+.logo{
+    color:white;
+    font-size:4em;
+    font-family:"Clicker Script";
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:100%;
+    height:100%;
+}
+nav ul{
+    display:flex;
+    width:30%;
+    justify-content:space-around;
+    list-style:none;
+}
+nav ul li a{
+    font-family:"Playfair Display";
+}
+.button{
+    width:12vw;
+    justify-content:space-between;
+    display:flex;
+    align-items:center;
+}
+.morning{
+    width:50vw;
+    height:75%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-left:7em;
+    padding-top:7em;
+}
+.m1{
+    justify-content:space-between;
+    display:flex;
+    flex-direction:column;
+    height:100%;
+}
+.m1 :first-child{
+    color:white;
+    font-size:1.8em;
+}
+.m1 :nth-child(2){
+    color:white;
+    font-size:15em;
+    font-family:"Clicker Script";
+}
+.m1 :nth-child(3){
+    color:white;
+    font-size:1.8em;
+}
+.best{
+    width:99vw;
+    height:100vh;
+    background-color:white;
+}
+.tign{
+    display:flex;
+    align-items:center;
+    height:100%;
+    justify-content:space-around;
+}
+.tign img{
+    width:36em;
+    height:37em;
+}
+.txt{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    width:45%;
+    height:60%;
+}
+.blast_left{
+    position:relative;
+    bottom:20em;
+}
+.enjoy{
+    width:99vw;
+    display:flex;
+    flex-direction:column;
+    height:90vh;
+    justify-content:space-around;
+    margin-bottom:2em;
+}
+.upp{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height:12em;
+}
+.enjoy ul{
+    width:85vw;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.cart{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    background-color:#FFF9F1;
+    border-style:solid;
+    border-color:rgba(249,192,106,0.42);
+    border-width:0.15em;
+    width:20em;
+    height:27em;
+    align-items:center;
+}
+.cart img{
+    width:20em;
+    height:16em;
+    position:relative;
+    bottom:1em;
+}
+.cart button{
+    position:relative;
+    top:1.5em;
+}
+.name{
+    color:#603809;
+    font-weight:bold;
+    padding-bottom:0.25em;
+}
+.cm{
+    font-size:1.3em;
+    color:#1E1E1E;
+    padding:0.25em;
+}
+.c{
+    color:#603809;
+    display:flex;
+    flex-direction:row;
+    align-items:end;
+    padding:0.25em;
+}
+.c1{
+    color:#603809;
+    font-weight:600;
+}
+.c2{
+    color:#603809;
+    font-weight:600;
+    font-size:1.35em;
+}
+.name,.cm,.c{
+    position:relative;
+    top:0.4em;
+}
+.why{
+    height:100vh;
+    margin-bottom:5em;
+}
+.cartt{
+    width:20vw;
+    height:28em;
+    background-color:#FFF9F1;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    border-color:rgba(249,192,106,0.42);
+    border-style:solid;
+}
+.cartt img{
+    width:10em;
+    height:10em;
+}
+.why ul{
+    height:50vh;
+    width:90vw;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    margin:0 auto;
+    flex-wrap:wrap;
+}
+.why .upp{
+    height:12em;
+}
+.cartt .name{
+    font-size:3em;
+}
+.cartt .p1{
+    width:8em;
+    font-size:2em;
+    text-align:center;
+}
+.blast_right{
+    position:absolute;
+    top:285vh;
+    right:0;
+}
+.down{
+    height:20em;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.down div{
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+}
+.down div .p1{
+    font-size:2em;
+}
+.down div .name{
+    font-size:3em;
+}
+.get{
+    background-image:url(Asse/Group\ 36.png);
+    width:99vw;
+    height:76vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+}
+.lleft{
+    height:30em;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    margin-left:4em;
+    margin-top:5em;
+}
+.lleft h3{
+    color:white;
+}
+.lleft .p1{
+    color:white;
+    width:20em;
+}
+.cup{
+    position:relative;
+    left:8em;
+    top:7em;
+    z-index:2;
+}
+.bob{
+    height:76vh;
+    position:relative;
+    bottom:31em;
+}
+.our{
+    height:100vh;
+}
+.centr{
+    display:flex;
+    width:80vw;
+    height:60vh;
+    margin:0 auto;
+    justify-content:space-around;
+}
+.arr1 .stt2,.arr2 .stt2{
+    width:4em;
+    height:4em;
+    border-radius:1em;
+}
+.main{
+    width:80%;
+    background-color:#FFF9F1;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    border:0.2em rgba(249,192,106,0.42) solid;
+}
+.main .p1{
+    width:90%;
+    position:relative;
+    bottom:10em;
+}
+.kkav{
+    justify-content:start;
+    display:flex;
+    width:100%;
+    position:relative;
+    bottom:4em;
+}
+.kav{
+    font-size:25em;
+    color:#603809;
+}
+.chel{
+    position:relative;
+    bottom:17.5em;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    height:40vh;
+}
+.chel .name{
+    font-size:3em;
+    height:2em;
+}
+.chel .p1{
+    position:relative;
+    bottom:0;
+    width:10em;
+    text-align:center;
+}
+.chel img{
+    position:relative;
+    top:1.5em;
+}
+.arr1,.arr2{
+    display:flex;
+    align-items:center;
+}
+.arr1{
+    position:relative;
+    left:5em;
+}
+.arr2{
+    position:relative;
+    right:5em;
+}
+.sub{
+    height:50vh;
+    background-image:url(Asse/Rectangle\ 14.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    box-shadow:0 0 100em 100em rgba(96,56,9,0.75) inset;
+}
+.inside{
+    height:70%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-evenly;
+    position:relative;
+    top:4em;
+}
+.sub h3{
+    color:white;
+}
+.sub p{
+    color:white;
+}
+.mail{
+    width:40%;
+    height:20%;
+    display:flex;
+    background-color:#FFF9F1;
+    justify-content:space-between;
+    align-items:center;
+    border-radius:0.2em;
+}
+.mail p{
+    color:rgba(0,0,0,0.34);
+    font-size:1.3em;
+    padding-left:1.2em;
+}
+.mail .stt2{
+    border-radius:0;
+    height:100%;
+}
+footer{
+    height:70vh;
+    background:linear-gradient(rgba(83,49,9,0.9)), url(Asse/fotter_image.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    box-shadow:0 0 100em 100em rgba(73,43,7,0.01) inset;
+}
+.fot{
+    width:90%;
+    height:100%;
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+    align-items:center;
+}
+.p2{
+    color:white;
+    font-size:1.2em;
+}
+.sect,.sect2,.sect3{
+    width:28%;
+    height:40%;
+    justify-content:space-between;
+    display:flex;
+    flex-direction:column;
+}
+.sect2{
+    width:10%;
+}
+.foto img{
+    width:20%;
+    height:30%;
+}
+.foto{
+    display:flex;
+    justify-content:space-between;
+    width:10em;
+    height:20em;
+    align-items:end;
+}
+.nnn p{
+    color:white;
+    font-size:2em;
+}
+.nnn{
+    height:5em;
+}
+.sect3{
+    width:20%;
+}
+.blast3{
+    position:absolute;
+    top:540vh;
+    left:0;
+}
+.blast4{
+    position:absolute;
+    top:485vh;
+    right:0;
+}
+.cup1{
+    position:absolute;
+    top:605vh;
+    left:0;
+}
+.cup2{
+    position:absolute;
+    top:605vh;
+    right:0;
+}
