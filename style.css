@@ -115,6 +115,7 @@ nav ul li a{
     background-color:white;
 }
 .tign{
+
     display:flex;
     align-items:center;
     height:100%;
@@ -215,7 +216,7 @@ nav ul li a{
     margin-bottom:5em;
 }
 .cartt{
-    width:20vw;
+    width:22em;
     height:28em;
     background-color:#FFF9F1;
     display:flex;
@@ -435,6 +436,7 @@ footer{
     justify-content:space-between;
     margin:0 auto;
     align-items:center;
+    flex-wrap: wrap;
 }
 .p2{
     color:white;
@@ -490,4 +492,1001 @@ footer{
     position:absolute;
     top:605vh;
     right:0;
+}
+@media (min-width:315px)and (max-width:820px)
+{
+    .blast3,.blast4,.cup1,.cup2,.blast_right,.blast_left{display: none;}
+    a{font-size: 100%;}
+    .Coff{
+    background-image:url(Asse/coffee_image.png);
+    width: 100vw;
+    height: 90vh;
+
+}
+
+.logo{
+
+    font-size:160%;
+}
+
+nav ul{
+    display:none
+}
+
+.button{
+    height: 100%;
+    width:40%;
+}
+.stt1,.stt2{
+    font-size:80%;
+}
+.stt1{
+
+    width:55%;
+    height:45%;
+}
+.morning{
+    width:99vw;
+    height:75%;
+    padding-left:5%;
+    padding-top:5%;
+}
+.m1{justify-content: space-evenly;}
+.m1 :first-child{
+    font-size:100%;
+}
+.m1 :nth-child(2){
+
+    font-size:700%;
+
+}
+.m1 :nth-child(3){
+
+    font-size:100%;
+}
+.best img{display: none;}
+.best{
+    width:100vw;
+    height:70vh;
+    background-color:white;
+}
+.tign{
+    margin-left: 3%;
+    height:100%;
+}
+h3{font-size: 300%;}
+p{font-size: 100%;}
+.txt{
+    width:90%;
+    height:60%;
+}
+
+.enjoy{
+    width:100vw;
+    height:240vh;
+    margin-bottom:2em;
+}
+.upp{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.enjoy .upp{height: 12%;}
+.p1{font-size: 120%;}
+.enjoy ul{
+    width:85%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.cart{
+
+    width:15em;
+    height:20em;
+    align-items:center;
+
+    margin-bottom: 20%;
+}
+.cart img{
+    width:15em;
+    height:10em;
+}
+.why{
+    height:280vh;
+    margin-bottom:5em;
+}
+.cartt{
+    width: 15em;
+    height:20em;
+
+}
+.cartt img{
+    width:5em;
+    height:5em;
+}
+.why ul{
+    height:200vh;
+    width:90vw;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    margin:0 auto;
+    flex-wrap:wrap;
+}
+
+.cartt .name{
+    font-size:200%;
+}
+.cartt .p1{
+    width:8em;
+    font-size:150%;
+    text-align:center;
+}
+.blast_right{
+    position:absolute;
+    top:285vh;
+    right:0;
+}
+.down{
+    width: 90%;
+    height:22em;
+    margin: 0 auto;
+}
+.down div{
+    text-align: center;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+}
+.down div .p1{
+    font-size:2em;
+}
+.down div .name{
+    font-size:3em;
+}
+
+.get{
+    background-image:url(Asse/Group\ 36.png);
+    width:100vw;
+    height:76vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+}
+.lleft{
+    width: 100%;
+    height:30em;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    margin-left:0;
+    margin-top:0;
+    align-items: center;
+}
+.lleft h3{
+    font-size: 280%;
+    color:white;
+    text-align: center;
+}
+.lleft .p1{
+    color:white;
+    width:100%;
+    text-align: center;
+}
+.cup{
+    display: none;
+}
+.bob{
+    display: none;
+}
+.rright{display: none;}
+
+.our{
+    width: 100vw;
+    height:120vh;
+}
+.centr{
+    display:flex;
+    width:100vw;
+    height:60vh;
+    margin:0 auto;
+    justify-content:space-around;
+}
+.arr1 .stt2,.arr2 .stt2{
+    width:4em;
+    height:4em;
+    border-radius:1em;
+}
+.main{
+    height: 100%;
+    width:100%;
+    background-color:#FFF9F1;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    border:0.2em rgba(249,192,106,0.42) solid;
+}
+.main .p1{
+    text-align: center;
+    width:80%;
+    position:relative;
+    bottom:20%;
+    font-size: 120%;
+}
+.kkav{
+    justify-content:start;
+    display:flex;
+    width:100%;
+    position:relative;
+    bottom:2em;
+}
+.kav{
+    font-size:10em;
+    color:#603809;
+}
+.chel{
+    position:relative;
+    bottom:10%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    height:20vh;
+}
+.chel .name{
+    font-size:200%;
+    height:2em;
+}
+.chel .p1{
+    position:relative;
+    bottom:0;
+    width:10em;
+    height: 80%;
+    text-align:center;
+}
+.chel img{
+    position:relative;
+    top:5%;
+}
+.arr1,.arr2{
+    display:flex;
+    align-items:center;
+}
+.arr1{
+    position:relative;
+    left:1.5em;
+}
+.arr2{
+    position:relative;
+    right:1.5em;
+}
+
+.sub{
+    height:50vh;
+    background-image:url(Asse/Rectangle\ 14.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    box-shadow:0 0 100em 100em rgba(96,56,9,0.75) inset;
+}
+.inside{
+    height:80%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-evenly;
+    position:relative;
+    top:2em;
+}
+.sub h3{
+    width: 97%;
+    text-align: center;
+    color:white;
+    font-size: 265%;
+}
+.sub p{
+    text-align: center;
+    color:white;
+    font-size: 120%;
+}
+.mail{
+    width:70%;
+    height:20%;
+    display:flex;
+    background-color:#FFF9F1;
+    justify-content:space-between;
+    align-items:center;
+    border-radius:0.2em;
+}
+.mail p{
+    color:rgba(0,0,0,0.34);
+    font-size:1.3em;
+    padding-left:0.5em;
+}
+.mail .stt2{
+    border-radius:0;
+    height:100%;
+}
+
+footer{
+    height: 100vh;
+    background:linear-gradient(rgba(83,49,9,0.9)), url(Asse/fotter_image.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    box-shadow:0 0 100em 100em rgba(73,43,7,0.01) inset;
+}
+
+.fot{
+    width:90%;
+    height:100%;
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+    align-items:start   ;
+}
+.p2{
+    color:white;
+    font-size:75%;
+}
+.sect,.sect2,.sect3{
+    width:50%;
+    height:25%;
+    justify-content:space-between;
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+}
+.sect2{
+    width:40%;
+    height: 30%;
+}
+.sect{height: 40%;}
+.foto img{
+    width:20%;
+    height:30%;
+}
+.foto{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    height:40%;
+    align-items:center;
+}
+.nnn p{
+    color:white;
+    font-size:1em;
+}
+.nnn{
+    height:5em;
+}
+.sect3{
+    width:20%;height: 30%;
+}
+.sect3 a{width: 90%;font-size: 90%;;}
+.sect2,.sect3{width: 40%;}
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media (min-width:551px)and (max-width:1130px)
+{
+    .blast3,.blast4,.cup1,.cup2,.blast_right,.blast_left{display: none;}
+    a{font-size: 100%;}
+    .Coff{
+    background-image:url(Asse/coffee_image.png);
+    width: 100vw;
+    height: 90vh;
+
+}
+
+.logo{
+
+    font-size:160%;
+}
+
+nav ul{
+    display:none
+}
+
+.button{
+    height: 100%;
+    width:40%;
+}
+.stt1,.stt2{
+    font-size:80%;
+
+}
+.stt1{
+
+    width:55%;
+    height:45%;
+}
+.lleft .stt2{width: 30%;height: 10%;}
+.morning{
+    width:99vw;
+    height:75%;
+    padding-left:5%;
+    padding-top:5%;
+}
+.m1{justify-content: space-evenly;}
+.m1 :first-child{
+    font-size:100%;
+}
+.m1 :nth-child(2){
+
+    font-size:700%;
+
+}
+.m1 :nth-child(3){
+    width: 80%;
+    font-size:100%;
+}
+.best img{display: none;}
+.best{
+    width:100vw;
+    height:50vh;
+    background-color:white;
+}
+.tign{
+    margin-left: 3%;
+    height:100%;
+}
+h3{font-size: 300%;}
+p{font-size: 100%;}
+.txt{
+    width:90%;
+    height:60%;
+}
+
+.enjoy{
+    width:100vw;
+    height:150vh;
+    margin-bottom:2em;
+}
+.upp{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.enjoy .upp{height: 12%;}
+.p1{font-size: 120%;}
+.enjoy ul{
+    width:85%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.cart{
+
+    width:15em;
+    height:20em;
+    align-items:center;
+
+    margin-bottom: 20%;
+}
+.cart img{
+    width:15em;
+    height:10em;
+}
+.why{
+    height:170vh;
+    margin-bottom:5em;
+}
+.cartt{
+    width: 15em;
+    height:20em;
+
+}
+.cartt img{
+    width:5em;
+    height:5em;
+}
+.why ul{
+    height:100vh;
+    width:90vw;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    margin:0 auto;
+    flex-wrap:wrap;
+}
+
+.cartt .name{
+    font-size:200%;
+}
+.cartt .p1{
+    width:8em;
+    font-size:150%;
+    text-align:center;
+}
+.blast_right{
+    position:absolute;
+    top:285vh;
+    right:0;
+}
+.down{
+    width: 90%;
+    height:22em;
+    margin: 0 auto;
+}
+.down div{
+    text-align: center;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+}
+.down div .p1{
+    font-size:2em;
+}
+.down div .name{
+    font-size:3em;
+}
+
+.get{
+    background-image:url(Asse/Group\ 36.png);
+    width:100vw;
+    height:60vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+}
+.lleft{
+    width: 100%;
+    height:30em;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    margin-left:0;
+    margin-top:0;
+    align-items: center;
+}
+.lleft h3{
+    font-size: 280%;
+    color:white;
+    text-align: center;
+}
+.lleft .p1{
+    color:white;
+    width:100%;
+    text-align: center;
+}
+.cup{
+    display: none;
+}
+.bob{
+    display: none;
+}
+.rright{display: none;}
+
+.our{
+    width: 100vw;
+    height:120vh;
+}
+.centr{
+    display:flex;
+    width:100vw;
+    height:60vh;
+    margin:0 auto;
+    justify-content:space-around;
+}
+.arr1 .stt2,.arr2 .stt2{
+    width:4em;
+    height:4em;
+    border-radius:1em;
+}
+.main{
+    height: 55vh;
+    width:100%;
+    background-color:#FFF9F1;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    border:0.2em rgba(249,192,106,0.42) solid;
+}
+.main .p1{
+    text-align: center;
+    width:80%;
+    position:relative;
+    bottom:20%;
+    font-size: 120%;
+}
+.kkav{
+    justify-content:start;
+    display:flex;
+    width:100%;
+    position:relative;
+    bottom:2em;
+}
+.kav{
+    font-size:10em;
+    color:#603809;
+}
+.chel{
+    position:relative;
+    bottom:10%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    height:20vh;
+}
+.chel .name{
+    font-size:200%;
+    height:2em;
+}
+.chel .p1{
+    position:relative;
+    bottom:0;
+    width:10em;
+    text-align:center;
+}
+.chel img{
+    position:relative;
+    top:0;
+}
+.arr1,.arr2{
+    display:flex;
+    align-items:center;
+}
+.arr1{
+    position:relative;
+    left:1.5em;
+}
+.arr2{
+    position:relative;
+    right:1.5em;
+}
+
+.sub{
+    height:60vh;
+    background-image:url(Asse/Rectangle\ 14.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    box-shadow:0 0 100em 100em rgba(96,56,9,0.75) inset;
+}
+.inside{
+    height:80%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-evenly;
+    position:relative;
+    top:2em;
+}
+.sub h3{
+    width: 97%;
+    text-align: center;
+    color:white;
+    font-size: 265%;
+}
+.sub p{
+    text-align: center;
+    color:white;
+    font-size: 120%;
+}
+.mail{
+    width:70%;
+    height:20%;
+    display:flex;
+    background-color:#FFF9F1;
+    justify-content:space-between;
+    align-items:center;
+    border-radius:0.2em;
+}
+.mail p{
+    color:rgba(0,0,0,0.34);
+    font-size:1.3em;
+    padding-left:0.5em;
+}
+.mail .stt2{
+    border-radius:0;
+    height:100%;
+}
+
+
+}
+@media (min-width:849px)and (max-width:1130px){
+    .enjoy{height: 110vh;}
+}
+@media (min-width:1131px)  and (max-width:1500px){
+    
+    
+    a{font-size: 110%;}
+    .Coff{
+    background-image:url(Asse/coffee_image.png);
+    width: 100vw;
+    height: 90vh;
+
+}
+
+
+.lleft .stt2{width: 30%;height: 10%;}
+.morning{
+    width:99vw;
+    height:75%;
+    padding-left:5%;
+    padding-top:5%;
+}
+.m1{width: 70%;}
+.best img{width: 30%;height: 70%;}
+.best{
+    width:100vw;
+    height:50vh;
+    background-color:white;
+}
+.best p{font-size: 140%;}
+.tign{
+    margin-left: 3%;
+    height:100%;
+}
+h3{font-size: 300%;}
+p{font-size: 110%;}
+.txt{
+    width:50%;
+    height:60%;
+}
+.blast_left{bottom:20vh}
+
+.enjoy{
+    width:100vw;
+    height:70vh;
+    margin-bottom:2em;
+}
+.upp{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.enjoy .upp{height: 12%;}
+.p1{font-size: 160%;}
+.enjoy ul{
+    width:85%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.cart{
+
+    width:15em;
+    height:20em;
+    align-items:center;
+
+    margin-bottom: 20%;
+}
+.cart img{
+    width:15em;
+    height:10em;
+}
+.why{
+    height:120vh;
+    margin-bottom:5em;
+}
+.cartt{
+    width: 15em;
+    height:20em;
+
+}
+.cartt img{
+    width:5em;
+    height:5em;
+}
+.why ul{
+    height:50vh;
+    width:90vw;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    margin:0 auto;
+    flex-wrap:wrap;
+}
+
+.cartt .name{
+    font-size:200%;
+}
+.cartt .p1{
+    width:8em;
+    font-size:150%;
+    text-align:center;
+}
+.blast_right{
+    position:absolute;
+    top:200vh;
+    right:0;
+}
+.blast4{position: absolute;
+top: 400vh;}
+.blast3{position: absolute;
+top: 485vh;}
+.down{
+    width: 90%;
+    height:22em;
+    margin: 0 auto;
+}
+.down div{
+    text-align: center;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+}
+.down div .p1{
+    font-size:2em;
+}
+.down div .name{
+    font-size:3em;
+}
+
+.get{
+    background-image:url(Asse/Group\ 36.png);
+    width:100vw;
+    height:60vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+}
+.lleft{
+    width: 60%;
+    height:30em;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    margin-left:0;
+    margin-top:0;
+    align-items: center;
+}
+.lleft h3{
+    font-size: 280%;
+    color:white;
+    text-align: center;
+}
+.lleft .p1{
+    color:white;
+    width:100%;
+    text-align: center;
+}
+.cup{
+    position: relative;top:5%;
+}
+.cup1{top:555vh}
+.cup2{top:555vh}
+.bob{
+    height: 100%;
+}
+.rright{width: 50%;height: 100%;}
+
+.our{
+    width: 100vw;
+    height:120vh;
+}
+.centr{
+    display:flex;
+    width:100vw;
+    height:60vh;
+    margin:0 auto;
+    justify-content:space-around;
+}
+.arr1 .stt2,.arr2 .stt2{
+    width:4em;
+    height:4em;
+    border-radius:1em;
+}
+.main{
+    height: 70vh;
+    width:70%;
+    background-color:#FFF9F1;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    border:0.2em rgba(249,192,106,0.42) solid;
+}
+.main .p1{
+    text-align: center;
+    width:80%;
+    position:relative;
+    bottom:8em;
+    font-size: 180%;
+}
+.kkav{
+    justify-content:start;
+    display:flex;
+    width:100%;
+    position:relative;
+    bottom:2em;
+}
+.kav{
+    font-size:20em;
+    color:#603809;
+}
+.chel{
+    position:relative;
+    bottom:27%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    height:20vh;
+}
+.chel .name{
+    font-size:200%;
+    height:2em;
+}
+.chel .p1{
+    position:relative;
+    bottom:0;
+    width:10em;
+    text-align:center;
+}
+.chel img{
+    position:relative;
+    top:0;
+}
+.arr1,.arr2{
+    display:flex;
+    align-items:center;
+}
+.arr1{
+    position:relative;
+    left:7%;
+}
+.arr2{
+    position:relative;
+    right:7%;
+}
+
+.sub{
+    height:60vh;
+    background-image:url(Asse/Rectangle\ 14.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    box-shadow:0 0 100em 100em rgba(96,56,9,0.75) inset;
+}
+.inside{
+    height:80%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-evenly;
+    position:relative;
+    top:2em;
+}
+.sub h3{
+    width: 97%;
+    text-align: center;
+    color:white;
+    font-size: 265%;
+}
+.sub p{
+    text-align: center;
+    color:white;
+    font-size: 120%;
+}
+.mail{
+    width:70%;
+    height:20%;
+    display:flex;
+    background-color:#FFF9F1;
+    justify-content:space-between;
+    align-items:center;
+    border-radius:0.2em;
+}
+.mail p{
+    color:rgba(0,0,0,0.34);
+    font-size:1.3em;
+    padding-left:0.5em;
+}
+.mail .stt2{
+    border-radius:0;
+    height:100%;
+}
+
+.foto img{width: 20%;height: 60%;}
+}
+@media (min-width:663px)and (max-width:999px){
+.main .p1{font-size: 125%;}
+}
+@media (min-width:831px)and (max-width:1200px){
+.main .p1{font-size: 160%;}
 }
